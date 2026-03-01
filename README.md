@@ -25,3 +25,19 @@ I would revise the System Architecture View to better describe the client-server
 User needs were addressed by focusing on fair gameplay, reliability, responsiveness, and cross-platform accessibility. Features like unique identifiers, centralized game management, and in-memory data handling were designed to support these goals.
 
 I approached design by breaking the problem into requirements, constraints, architecture, and implementation, using object-oriented principles and platform analysis to guide decisions. In future projects, I would use the same approach while adding more early architectural diagrams, scalability planning, and security considerations.
+
+About DriverPass System Design Project
+Project Summary
+The DriverPass project involved designing a cloud-based web system for a driving education company. The client, DriverPass, wanted a system that would help students better prepare for their DMV exams by offering online practice tests, structured lesson packages, and on-the-road lesson scheduling. The system needed to support multiple roles, including customers, instructors, secretaries, administrators, and IT staff. My task was to translate the client's business needs into clear requirements and structured system designs using UML diagrams and supporting documentation.
+
+What I did Well
+One of the strongest aspects of my work was maintaining consistency between requirements and design, the functional and nonfunctional requirements I defined in project One were directly reflected in the UML diagrams I created in Project Two. I was careful to model decision points, validation steps, and role-based access clearly so that the system design aligned with the client's operational needs. I also ensured that scheduling logic, test tracking, and resource assignment (drivers and vehicles) were represented structurally and behaviorally across activity, sequence, and class diagrams.
+
+What I would Revise
+If I were to reive one part of my work, I would further refine the class diagram to increase clarity in relationships and multiplicity definitions. While the structure is accurate, I could improve visual organization and explicitly annotate more constraints to make the system model even clearer for future developers. I would also expand documentation around edge cases, such as payment failures or scheduling conflicts, to strengthen the completenedss of the design.
+
+Interpreting User Needs
+I approached the design by carefully reviewing the client interview transcript and identifying measurable system behaviors from conversational statements. Considering user needs is critical because systems exist to solve real operational problems. If design decisions are not grounded in user requirements, the final system may function technically but fail to deliver business value.
+
+My Approach to Designing Software
+When designing software, I focus first on understanding the problem space before thinking about implementation details. I identify core entities, define relationships, and model workflows to understand how data moves through the system. I use UML diagrams to view the system from multiple perspectives: structural, behavioral, and interaction-based. In future projects, I would continue using structured requirements analysis, stakeholder interviews, and iterative diagram refinement to ensure alignment between business goals and technical architecture.
