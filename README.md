@@ -41,3 +41,28 @@ I approached the design by carefully reviewing the client interview transcript a
 
 My Approach to Designing Software
 When designing software, I focus first on understanding the problem space before thinking about implementation details. I identify core entities, define relationships, and model workflows to understand how data moves through the system. I use UML diagrams to view the system from multiple perspectives: structural, behavioral, and interaction-based. In future projects, I would continue using structured requirements analysis, stakeholder interviews, and iterative diagram refinement to ensure alignment between business goals and technical architecture.
+
+Sprint Review and Retrospective Reflection for SDLC
+Interpreting User Needs and Implementing Them Into a Program
+Intrepreting user needs starts with understanding the problem from the user's perpsective rather than focusing immediately on technical solutions. In this course, creating user stories helped structure those needs in a clear and actionable way. By writing stories in the format of "As a user, I want..." I was able to focus on the value the feature should deliver rather than the implementation details.
+
+User stories also helped translate abstract ideas into measurable acceptance criteria. Instead of building features based on assumptions, the acceptance criteria defined what success looked like. This made it easier to design, test, and validate functionality. Through this process, I learned that effecftive development starts with clarity about user outcomes, not just code execution.
+
+My Approach to Developing Programs and Future Agile Practices
+When developing programs, I now approach the work incrementally. Rather than attempting to design everything upfront, I prefer breaking the work into manageable components that can be refined over time. This mirrors the Scrum-Agile framework we applied through the SNHU Travel project.
+
+In future development work, I hope to incorporate:
+Writing clear user stories before beginning implementation
+Defining acceptance criteria to guide testing
+Iterative development cycles
+Regular reflection and refinement of work
+Clear communication when requirements change
+
+The Agile mindset of inspection and adaptation stood out to me during this course. When project requirements shifted towards wellness-focused travel, the structured yet flexible approach allowed adjustments without starting over. That adaptability is something I intend to carry into future projects.
+
+Being a Good Team Member in Software Development
+Being a good team member in software development means more than completing assigned tasks. It requires communication, accountability, and respect for shared goals. Transparency is essential, team members should clearly communicate progress, challenges, and uncertainties to prevent misunderstandings.
+
+A strong team member also understands their role while recognizing how it connects to others. Whether acting as a developer, product owner, or tester in simulated scenarios, I learned that collaboration between roles improves outcomes. Clear expectations and proactive communication reduce rework and increase overall efficiency.
+
+Ultimately, good teamwork in software development means contributing to a shared objective, remaining adaptable to change, and supporting continuous improvement.
