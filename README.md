@@ -75,3 +75,11 @@ One of the more challenging parts of the project was interpreting the OWASP Depe
 I added layers of security through hashing and encrypted communication. To verify functionality and security, I tested the app manually and confirmed it ran correctly over HTTPS. 
 
 Tools and practices used in this project included Java Keytool for certificate generation, Spring Boot configuration for HTTPS, and OWASP Dependency-Check for vulnerability scanning. This project demonstrates my ability to identify vulnerabilities, implement secure coding practices, and validate application security.
+
+On CS 300 Projects
+These projects focused on building an advising system that loads course data, organizes it using different data structures, and allows users to search and display course information.
+
+The main problem was determining how to efficiently store and retrieve course data while supporting sorted output and fast lookups. I explored vectors, hash tables, and binary search trees, which helped me understand how data structures directly impoact performance and design decisions.
+I approached the problem by first designing pseudocode, then implementing a binary search tree since it naturally maintains sorted order. This reinforced the importance of choosing the right data structure based on requirements rather than convenience.
+
+One of the biggest challenges was handling file input and parsing edge cases like inconsistent CSV formatting and user input errors. I resolved these by improving input handling and debugging step-by-step, especially around stream behavior in C++. The projected improved how I think about software design by emphasizing planning before coding and considering efficiency early. It also pushed me to write cleaner, modular code with clear structure, which makes programs easier to maintain and extend.
