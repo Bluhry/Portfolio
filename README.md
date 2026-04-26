@@ -66,3 +66,12 @@ Being a good team member in software development means more than completing assi
 A strong team member also understands their role while recognizing how it connects to others. Whether acting as a developer, product owner, or tester in simulated scenarios, I learned that collaboration between roles improves outcomes. Clear expectations and proactive communication reduce rework and increase overall efficiency.
 
 Ultimately, good teamwork in software development means contributing to a shared objective, remaining adaptable to change, and supporting continuous improvement.
+
+
+On CS 305 project, code base and document
+Artemis Financial, a consulting company that develops financial plans for clients, wanted to improve the security of its wed application by ensuring secure communication and verifying data integrity.
+I identified concerns in the app and improved it by implementing SHA-256 hashing for data verification and configuring HTTPS using SSL/TLS. This ensured that data could not be easily intercepted or altered. Coding securely is important because it protects sensitive information, maintains user trust, and reduces the risk of breaches.
+One of the more challenging parts of the project was interpreting the OWASP Dependency-Check results, since many vulnerabilities came from outdated dependencies rather than my own code. This helped understand how to evaluate real-world security risks.
+I added layers of security through hashing and encrypted communication. To verify functionality and security, I tested the app manually and confirmed it ran correctly over HTTPS. 
+
+Tools and practices used in this project included Java Keytool for certificate generation, Spring Boot configuration for HTTPS, and OWASP Dependency-Check for vulnerability scanning. This project demonstrates my ability to identify vulnerabilities, implement secure coding practices, and validate application security.
