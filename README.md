@@ -83,3 +83,14 @@ The main problem was determining how to efficiently store and retrieve course da
 I approached the problem by first designing pseudocode, then implementing a binary search tree since it naturally maintains sorted order. This reinforced the importance of choosing the right data structure based on requirements rather than convenience.
 
 One of the biggest challenges was handling file input and parsing edge cases like inconsistent CSV formatting and user input errors. I resolved these by improving input handling and debugging step-by-step, especially around stream behavior in C++. The projected improved how I think about software design by emphasizing planning before coding and considering efficiency early. It also pushed me to write cleaner, modular code with clear structure, which makes programs easier to maintain and extend.
+
+On CS320 ContactService and Project 2 summary and reflections
+How can I ensure my code, program, or software is functional and secure?
+I make sure my software is functional by testing it throughout development instead of waiting until the end. For this project, I used JUnit to verify that every requirement worked correctly and that invalid inputs, like null values, duplicate IDs, or values outside the allowed limits, were handled properly. Although this projecft did not involve advanced security feateures, validating input and preventing invalid data from being accepted are important practices that help make software more reliable and secure.
+
+How do I interpret user needs and incorporate them into a program?
+I start by carefully reading the project requirements and breaking them into individual features that can be implemented and tested. I try to make sure every requirement has corresponding code and at least one unit test to verify it. This approach helps ensure that the final program behaves the way the customer expects rather than relying on assumptions.
+
+How do I approach designing software?
+I like to break a project into smaller pieces that each have a clear responsibility. In this project, I separated the data classes, service classes, and test classes so each part had a specific purpose. I also tried to keep validation logic in one place to avoid duplicating code. Writing unit tests as I developed each feature helped me catch mistakes early and gave me confidence that changes to one part of the program did not unintentionally break another.
+
