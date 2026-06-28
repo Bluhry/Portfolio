@@ -94,3 +94,20 @@ I start by carefully reading the project requirements and breaking them into ind
 How do I approach designing software?
 I like to break a project into smaller pieces that each have a clear responsibility. In this project, I separated the data classes, service classes, and test classes so each part had a specific purpose. I also tried to keep validation logic in one place to avoid duplicating code. Writing unit tests as I developed each feature helped me catch mistakes early and gave me confidence that changes to one part of the program did not unintentionally break another.
 
+Reflection on CS330 project
+How do I approach designing software?
+Working on this project helped me improve my ability to break complex objects into simple components. Rather than trying to model everything as one complicated object, I learned to identify which primitive shapes could be combined to create recognizable real-world objects. This approach made it easier to plan the scene and kept the overall polygon count low.
+
+My design process started by studying the reference image and identifying the major objects needed. I then determined which primitive shapes would best represent each object before deciding on their size, placement, textures, and lighting. As the project progressed, I refined the placement and proportions of each object until the overall scene matched the original image I used.
+
+This design approach can be applied to future software projects by planning before implementation, breaking large problems into smaller pieces, and refining the slution through incremental improvements rather than trying to complete everything at once.
+
+How do I approach developing programs?
+Iteration played a major role throughout the project. I regularly adjusted object dimensions, positions, rotations, and textures after viewing the rendered scene. Many objects required several small changes before they looked correct, and testing each adjustment helped produce a more polished final result.
+
+My approach to development evolved throughout the milestones. Early in the course I focused on just getting objects to render correctly. As additional features like camera controls, textures, and lighting were introduced, I became more comfortable with each subsequent object and assigning textures I had used previously, allowing reuse of location coordinates and textures from before.
+
+How can CS help me in reaching my goals?
+Computational graphics and visualization strengthened my understanding of coordinate systems, geometric transformations, lighting models, texture mapping, and camera movement. These concepts expanded my programming skills beyond traditional console applications and provided experience working with graphical APIs and mathematical concepts used in computer graphics.
+
+Professionally, these skills will be valuable in software development fields that involve visualization, simulation, user interfaces, game development, engineering applications, or other interactive software. Even outside of graphics programming, this project  reinforced important software engineering practices such as modular design, problem decomposition, iterative development, and debugging, which are transferable to many areas of CS.
