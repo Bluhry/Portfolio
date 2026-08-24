@@ -121,3 +121,23 @@ I approach problems by breaking them into smaller, manageable components and tes
 
 What do computer scientists do, and why does it matter?
 Computer scientists use software and data to solve problems and make complex tasks easier and more efficient. In this project, the dashboard turned thousands of animal shelter records into an interactive tool that the company could use to quickly identify potential rescue dogs. Instead of manually searching through records, users can filter the data and immediately see relevant animals and their locations. This shows how CS can turn raw data into useful information that helps organizations make better decisions.
+
+About inventory manager application
+Requirements and Goals:
+I developed an inventory management app that allows users to create accounts, log in, view inventory, add and remove items, update quantities, and receive optional SMS alerts when an item reaches zero. The goal was to provide a simple way for warehouse users to manage inventory.
+
+UI Design:
+The app uses separate login, inventory, and notification screens with clear buttons and labels. I focused on simple navigation and keeping common inventory actions easy to find, which makes the app straightforward for users to operate.
+
+Coding Approach:
+I developed the application incrementally, implementing and testing individual features such as authentication, SQLite database operations, and SMS permissions before moving on. This approach made problems easier to identify and can be applied to future projects.
+
+Testing:
+I tested account creation, duplicate accounts, login, database persistence, adding, deleting, and updating inventory, as well as both SMS permission outcomes. Testing was important because it revealed issues with the emulator and helped confirm that the application continued working when permissions were denied.
+
+Innovation:
+One challenge was implementing the SMS functionality while ensuring the rest of the app continued working if permission was denied. I handled this by checking permission before attempting to send alerts and allowing users to continue without SMS.
+
+Successful Component:
+I was particularly successful with the SQLite database and CRUD functionality. The app can create, read, update, and delete inventory records while preserving the data between sessions.
+
