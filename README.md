@@ -141,3 +141,13 @@ One challenge was implementing the SMS functionality while ensuring the rest of 
 Successful Component:
 I was particularly successful with the SQLite database and CRUD functionality. The app can create, read, update, and delete inventory records while preserving the data between sessions.
 
+CS 370 Current and Emerging Trends in Computer Science
+Project Reflection
+
+For this project, I developed a pirate intelligent agent using deep Q-learning. The maze environment, supporting classes, and starter notebook were provided. I implemented the training algorithm using epsilon-greedy exploration, experience replay, and a target network. I also added evaluations to verify that the agent could solve the maze from all 50 starting positions.
+
+Computer scientists solve problems by developing, testing, and improving computational systems. Their work matters because these systems support everything from everyday applications to complex automation and artificial intelligence.
+
+My approach involves breaking problems into smaller steps, understanding the requirements, testing solutions, and adjusting based on results. This project reinforced that a high training success rate does not necessarily mean a model works reliably in every situation.
+
+My ethical responsibilities include protecting user information, developing secure and reliable systems, and recognizing potential limitations or biases. AI systems especially require careful testing and honest reporting of their capabilities.
